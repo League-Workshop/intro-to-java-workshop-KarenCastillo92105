@@ -1,5 +1,7 @@
 package section4;
 
+import javax.swing.JOptionPane;
+
 public class QuizGame {
 	
 	public static void main(String[] args) {
@@ -7,7 +9,7 @@ public class QuizGame {
 		// 1.  Create a variable to hold the user's score 
 		
 		// 2.  Ask the user a question 
-		
+		JOptionPane.showMessageDialog(null,"Do you want to be my friend!");
 		// 3.  Use an if statement to check if their answer is correct
 		
 		// 4.  if the user's answer was correct, add one to their score 
